@@ -1,0 +1,46 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Database files (НЕ загружаем базу данных!)
+*.db
+*.db-*
+*.sqlite3
+city_expert/data/city_expert.db*
+city_expert/data/*.db*
+data/
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.local
+config.py
+secrets.py
+*.key
+*.pem
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.tmp
+*.temp
+*.db-shm
+*.db-wal
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
